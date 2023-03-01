@@ -112,15 +112,19 @@ const createDiv = (svg, audio) => {
 }
 
 const fetchLily = (lilyCode, extension) => {
-   return fetch(BASE_URL, {
+  const headers = {}
+  if(USERNAME) {
+    headers['Authorization'] = 'Basic ' + btoa(USERNAME + ":" + PASSWORD);  }
+
+
+
+  return fetch(BASE_URL, {
     method: "POST", 
     body: new URLSearchParams({
       lilypond_text: lilyCode,
       extension: extension
     }),
-    headers: {
-      //'Authorization': 'Basic '
-    }
+    headers
   })
 }
 
