@@ -7,5 +7,11 @@
     "id": "logseq-lilypond",
     "icon": "LilyPond-logo.png"
   },
-  "license": "MIT"
+  "scripts": {
+    "build": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.1"
+  }
 }
