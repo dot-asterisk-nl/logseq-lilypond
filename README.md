@@ -52,4 +52,4 @@ Use command `/Lilypond` to generate a boilerplate:
 '''
 ```
 
-In the case of full mode, replace the top line with `{{renderer lilypond-codeblock, full}}`. It works very similarly but does not have the 
+In the case of full mode, replace the top line with `{{renderer lilypond-codeblock, full}}`. It works very similarly but does not have the boilerplate code wrapping your score and you will have to do everything manually. This could lead to some errors if not careful.
