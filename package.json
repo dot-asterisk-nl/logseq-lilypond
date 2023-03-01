@@ -1,6 +1,6 @@
 {
   "name": "logseq-lilypond",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "DOT-ASTERISK",
   "main": "index.html",
   "logseq": {
@@ -10,8 +10,5 @@
   "scripts": {
     "build": "mkdir -p dist && cp * dist/"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "parcel": "^2.8.1"
-  }
+  "license": "MIT"
 }
