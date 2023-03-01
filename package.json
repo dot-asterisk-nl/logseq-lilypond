@@ -8,7 +8,7 @@
     "icon": "LilyPond-logo.png"
   },
   "scripts": {
-    "build": "mkdir dist && cp * dist/"
+    "build": "mkdir -p dist && cp * dist/"
   },
   "license": "MIT",
   "devDependencies": {
