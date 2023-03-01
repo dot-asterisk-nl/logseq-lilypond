@@ -4,7 +4,7 @@ This plugin has a simple function, that is, allow rendering lilypond in logseq! 
 
 ![](/plugin.gif)
 
-#Setting up
+# Setting up
 
 Ensure you have an instance of [lilypond-web](https://github.com/dot-asterisk-nl/lilypond-web) running. ([Need hosting?](https://dot-asterisk.nl)) Then after installing the plugin,
 go to the plugin settings and edit these values.
@@ -17,7 +17,7 @@ go to the plugin settings and edit these values.
 }
 ```
 
-#How to use:
+# How to use:
 
 The plugin knows three variants:
 - Macro-compatible
