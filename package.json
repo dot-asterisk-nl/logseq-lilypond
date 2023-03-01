@@ -1,0 +1,11 @@
+{
+  "name": "logseq-lilypond",
+  "version": "1.0.0",
+  "author": "DOT-ASTERISK",
+  "main": "index.html",
+  "logseq": {
+    "id": "logseq-lilypond",
+    "icon": "LilyPond-logo.png"
+  },
+  "license": "MIT"
+}
