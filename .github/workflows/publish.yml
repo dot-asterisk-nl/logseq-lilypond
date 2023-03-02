@@ -23,7 +23,7 @@ jobs:
       - name: Build
         id: build
         run: |
-          zip -r ${{ env.PLUGIN_NAME }}.zip ${{ env.PLUGIN_NAME }}
+          zip -r ${{ env.PLUGIN_NAME }}.zip *
           echo "::set-output name=tag_name::$(git tag --sort version:refname | tail -n 1)"
       - name: Create Release
         uses: ncipollo/release-action@v1
