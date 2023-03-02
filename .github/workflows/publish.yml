@@ -25,6 +25,7 @@ jobs:
         run: |
           npm run build | true
           mkdir ${{ env.PLUGIN_NAME }}
+          sed -i 's/index.html/dist\/index.html/g' package.json
           cp README.md package.json icon.png ${{ env.PLUGIN_NAME }} | true
           mv dist ${{ env.PLUGIN_NAME }}
           zip -r ${{ env.PLUGIN_NAME }}.zip ${{ env.PLUGIN_NAME }}
