@@ -23,6 +23,7 @@ jobs:
       - name: Build
         id: build
         run: |
+          rm plugin.gif
           zip -r ${{ env.PLUGIN_NAME }}.zip *
           echo "::set-output name=tag_name::$(git tag --sort version:refname | tail -n 1)"
       - name: Create Release
