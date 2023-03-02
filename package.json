@@ -1,14 +1,11 @@
 {
   "name": "logseq-lilypond",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "DOT-ASTERISK",
   "main": "index.html",
   "logseq": {
     "id": "logseq-lilypond",
     "icon": "LilyPond-logo.png"
-  },
-  "scripts": {
-    "build": "mkdir -p dist && cp * dist/"
   },
   "license": "MIT"
 }
